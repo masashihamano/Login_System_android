@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff00"
+    tools:context="edu.misao.login_system.RegisterActivity">
+
+    <TextView
+        android:id="@+id/tvReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Activity"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/RetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvReg"
+        android:hint="Enter the name"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/RetPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RetName"
+        android:hint="Enter the Password"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/RetEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RetPass"
+        android:hint="Enter the Email"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/RetPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RetEmail"
+        android:hint="Enter the Phone"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/RbtnRegister"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Register"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/RetPhone"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/RtvInfo"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="Already register? Click here to login page "
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_below="@+id/RbtnRegister" />
+
+
+
+
+</RelativeLayout>
